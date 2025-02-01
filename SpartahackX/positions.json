@@ -1,0 +1,1651 @@
+{
+    "Job Title": {
+        "0": "Data Analyst",
+        "1": "Graphic Designer",
+        "2": "Financial Analyst",
+        "3": "Graphic Designer",
+        "4": "Cybersecurity Specialist",
+        "5": "Data Analyst",
+        "6": "Project Manager",
+        "7": "Graphic Designer",
+        "8": "Sales Associate",
+        "9": "Software Engineer",
+        "10": "Graphic Designer",
+        "11": "Data Analyst",
+        "12": "Cybersecurity Specialist",
+        "13": "UX/UI Designer",
+        "14": "UX/UI Designer",
+        "15": "Graphic Designer",
+        "16": "Financial Analyst",
+        "17": "Graphic Designer",
+        "18": "Marketing Manager",
+        "19": "HR Specialist",
+        "20": "Marketing Manager",
+        "21": "Software Engineer",
+        "22": "UX/UI Designer",
+        "23": "Software Engineer",
+        "24": "Sales Associate",
+        "25": "Project Manager",
+        "26": "Sales Associate",
+        "27": "Project Manager",
+        "28": "UX/UI Designer",
+        "29": "Software Engineer",
+        "30": "Cybersecurity Specialist",
+        "31": "Data Analyst",
+        "32": "Financial Analyst",
+        "33": "Graphic Designer",
+        "34": "Data Analyst",
+        "35": "Cybersecurity Specialist",
+        "36": "Sales Associate",
+        "37": "UX/UI Designer",
+        "38": "Software Engineer",
+        "39": "Marketing Manager",
+        "40": "Sales Associate",
+        "41": "UX/UI Designer",
+        "42": "Software Engineer",
+        "43": "Cybersecurity Specialist",
+        "44": "HR Specialist",
+        "45": "Software Engineer",
+        "46": "Data Analyst",
+        "47": "Marketing Manager",
+        "48": "Financial Analyst",
+        "49": "Financial Analyst",
+        "50": "Data Analyst",
+        "51": "Software Engineer",
+        "52": "Financial Analyst",
+        "53": "UX/UI Designer",
+        "54": "Financial Analyst",
+        "55": "Graphic Designer",
+        "56": "Software Engineer",
+        "57": "Financial Analyst",
+        "58": "Financial Analyst",
+        "59": "Graphic Designer",
+        "60": "Data Analyst",
+        "61": "Marketing Manager",
+        "62": "Sales Associate",
+        "63": "Graphic Designer",
+        "64": "Marketing Manager",
+        "65": "Financial Analyst",
+        "66": "UX/UI Designer",
+        "67": "Graphic Designer",
+        "68": "Data Analyst",
+        "69": "Graphic Designer",
+        "70": "HR Specialist",
+        "71": "Data Analyst",
+        "72": "HR Specialist",
+        "73": "Cybersecurity Specialist",
+        "74": "HR Specialist",
+        "75": "Cybersecurity Specialist",
+        "76": "Data Analyst",
+        "77": "Software Engineer",
+        "78": "Sales Associate",
+        "79": "HR Specialist",
+        "80": "Cybersecurity Specialist",
+        "81": "Financial Analyst",
+        "82": "Data Analyst",
+        "83": "UX/UI Designer",
+        "84": "Marketing Manager",
+        "85": "HR Specialist",
+        "86": "Financial Analyst",
+        "87": "Sales Associate",
+        "88": "Graphic Designer",
+        "89": "Financial Analyst",
+        "90": "Software Engineer",
+        "91": "Marketing Manager",
+        "92": "Project Manager",
+        "93": "Data Analyst",
+        "94": "HR Specialist",
+        "95": "Data Analyst",
+        "96": "Software Engineer",
+        "97": "Software Engineer",
+        "98": "UX/UI Designer",
+        "99": "Software Engineer"
+    },
+    "Industry": {
+        "0": "Retail",
+        "1": "Telecommunications",
+        "2": "Consulting",
+        "3": "Education",
+        "4": "Marketing",
+        "5": "Manufacturing",
+        "6": "Consulting",
+        "7": "Marketing",
+        "8": "Telecommunications",
+        "9": "Marketing",
+        "10": "Hospitality",
+        "11": "Technology",
+        "12": "Retail",
+        "13": "Finance",
+        "14": "Healthcare",
+        "15": "Hospitality",
+        "16": "Marketing",
+        "17": "Telecommunications",
+        "18": "Finance",
+        "19": "Healthcare",
+        "20": "Education",
+        "21": "Manufacturing",
+        "22": "Marketing",
+        "23": "Marketing",
+        "24": "Telecommunications",
+        "25": "Telecommunications",
+        "26": "Consulting",
+        "27": "Marketing",
+        "28": "Manufacturing",
+        "29": "Healthcare",
+        "30": "Telecommunications",
+        "31": "Telecommunications",
+        "32": "Education",
+        "33": "Hospitality",
+        "34": "Education",
+        "35": "Hospitality",
+        "36": "Technology",
+        "37": "Education",
+        "38": "Manufacturing",
+        "39": "Education",
+        "40": "Healthcare",
+        "41": "Consulting",
+        "42": "Finance",
+        "43": "Consulting",
+        "44": "Healthcare",
+        "45": "Telecommunications",
+        "46": "Telecommunications",
+        "47": "Technology",
+        "48": "Consulting",
+        "49": "Healthcare",
+        "50": "Technology",
+        "51": "Marketing",
+        "52": "Education",
+        "53": "Finance",
+        "54": "Education",
+        "55": "Marketing",
+        "56": "Healthcare",
+        "57": "Telecommunications",
+        "58": "Telecommunications",
+        "59": "Retail",
+        "60": "Healthcare",
+        "61": "Manufacturing",
+        "62": "Hospitality",
+        "63": "Marketing",
+        "64": "Consulting",
+        "65": "Finance",
+        "66": "Manufacturing",
+        "67": "Telecommunications",
+        "68": "Consulting",
+        "69": "Retail",
+        "70": "Education",
+        "71": "Technology",
+        "72": "Manufacturing",
+        "73": "Retail",
+        "74": "Healthcare",
+        "75": "Telecommunications",
+        "76": "Consulting",
+        "77": "Technology",
+        "78": "Manufacturing",
+        "79": "Education",
+        "80": "Retail",
+        "81": "Marketing",
+        "82": "Technology",
+        "83": "Manufacturing",
+        "84": "Consulting",
+        "85": "Finance",
+        "86": "Education",
+        "87": "Healthcare",
+        "88": "Consulting",
+        "89": "Technology",
+        "90": "Hospitality",
+        "91": "Hospitality",
+        "92": "Manufacturing",
+        "93": "Retail",
+        "94": "Education",
+        "95": "Education",
+        "96": "Marketing",
+        "97": "Marketing",
+        "98": "Finance",
+        "99": "Technology"
+    },
+    "Company Name": {
+        "0": "RetailWorks",
+        "1": "FinGroup",
+        "2": "MediCare",
+        "3": "BuildIt Ltd.",
+        "4": "EduWorld",
+        "5": "BuildIt Ltd.",
+        "6": "EduWorld",
+        "7": "TechCorp",
+        "8": "MediCare",
+        "9": "FinGroup",
+        "10": "EduWorld",
+        "11": "EduWorld",
+        "12": "ConsultPro",
+        "13": "BuildIt Ltd.",
+        "14": "RetailWorks",
+        "15": "TechCorp",
+        "16": "HotelEase",
+        "17": "FinGroup",
+        "18": "FinGroup",
+        "19": "Marketers Inc.",
+        "20": "TeleNet",
+        "21": "ConsultPro",
+        "22": "TeleNet",
+        "23": "ConsultPro",
+        "24": "MediCare",
+        "25": "RetailWorks",
+        "26": "RetailWorks",
+        "27": "TeleNet",
+        "28": "FinGroup",
+        "29": "HotelEase",
+        "30": "ConsultPro",
+        "31": "Marketers Inc.",
+        "32": "HotelEase",
+        "33": "MediCare",
+        "34": "TeleNet",
+        "35": "RetailWorks",
+        "36": "FinGroup",
+        "37": "TeleNet",
+        "38": "BuildIt Ltd.",
+        "39": "FinGroup",
+        "40": "RetailWorks",
+        "41": "FinGroup",
+        "42": "EduWorld",
+        "43": "TechCorp",
+        "44": "TeleNet",
+        "45": "HotelEase",
+        "46": "Marketers Inc.",
+        "47": "FinGroup",
+        "48": "ConsultPro",
+        "49": "RetailWorks",
+        "50": "FinGroup",
+        "51": "BuildIt Ltd.",
+        "52": "Marketers Inc.",
+        "53": "MediCare",
+        "54": "ConsultPro",
+        "55": "RetailWorks",
+        "56": "Marketers Inc.",
+        "57": "EduWorld",
+        "58": "MediCare",
+        "59": "RetailWorks",
+        "60": "FinGroup",
+        "61": "FinGroup",
+        "62": "Marketers Inc.",
+        "63": "TeleNet",
+        "64": "MediCare",
+        "65": "ConsultPro",
+        "66": "MediCare",
+        "67": "EduWorld",
+        "68": "EduWorld",
+        "69": "EduWorld",
+        "70": "HotelEase",
+        "71": "FinGroup",
+        "72": "MediCare",
+        "73": "MediCare",
+        "74": "Marketers Inc.",
+        "75": "RetailWorks",
+        "76": "MediCare",
+        "77": "ConsultPro",
+        "78": "HotelEase",
+        "79": "EduWorld",
+        "80": "TeleNet",
+        "81": "ConsultPro",
+        "82": "FinGroup",
+        "83": "EduWorld",
+        "84": "ConsultPro",
+        "85": "EduWorld",
+        "86": "FinGroup",
+        "87": "BuildIt Ltd.",
+        "88": "TeleNet",
+        "89": "MediCare",
+        "90": "TechCorp",
+        "91": "MediCare",
+        "92": "EduWorld",
+        "93": "EduWorld",
+        "94": "TechCorp",
+        "95": "Marketers Inc.",
+        "96": "TeleNet",
+        "97": "EduWorld",
+        "98": "EduWorld",
+        "99": "MediCare"
+    },
+    "Employment Type": {
+        "0": "Internship",
+        "1": "Part Time",
+        "2": "Full Time",
+        "3": "Part Time",
+        "4": "Contract",
+        "5": "Internship",
+        "6": "Contract",
+        "7": "Contract",
+        "8": "Full Time",
+        "9": "Part Time",
+        "10": "Internship",
+        "11": "Internship",
+        "12": "Internship",
+        "13": "Internship",
+        "14": "Part Time",
+        "15": "Contract",
+        "16": "Contract",
+        "17": "Contract",
+        "18": "Part Time",
+        "19": "Internship",
+        "20": "Internship",
+        "21": "Contract",
+        "22": "Full Time",
+        "23": "Internship",
+        "24": "Full Time",
+        "25": "Part Time",
+        "26": "Full Time",
+        "27": "Part Time",
+        "28": "Contract",
+        "29": "Full Time",
+        "30": "Full Time",
+        "31": "Full Time",
+        "32": "Internship",
+        "33": "Part Time",
+        "34": "Contract",
+        "35": "Full Time",
+        "36": "Full Time",
+        "37": "Part Time",
+        "38": "Full Time",
+        "39": "Full Time",
+        "40": "Internship",
+        "41": "Contract",
+        "42": "Full Time",
+        "43": "Part Time",
+        "44": "Full Time",
+        "45": "Contract",
+        "46": "Contract",
+        "47": "Contract",
+        "48": "Contract",
+        "49": "Part Time",
+        "50": "Part Time",
+        "51": "Part Time",
+        "52": "Internship",
+        "53": "Contract",
+        "54": "Part Time",
+        "55": "Full Time",
+        "56": "Part Time",
+        "57": "Full Time",
+        "58": "Contract",
+        "59": "Full Time",
+        "60": "Full Time",
+        "61": "Part Time",
+        "62": "Contract",
+        "63": "Full Time",
+        "64": "Internship",
+        "65": "Contract",
+        "66": "Contract",
+        "67": "Full Time",
+        "68": "Internship",
+        "69": "Part Time",
+        "70": "Full Time",
+        "71": "Part Time",
+        "72": "Contract",
+        "73": "Full Time",
+        "74": "Contract",
+        "75": "Internship",
+        "76": "Part Time",
+        "77": "Contract",
+        "78": "Contract",
+        "79": "Part Time",
+        "80": "Contract",
+        "81": "Full Time",
+        "82": "Full Time",
+        "83": "Full Time",
+        "84": "Internship",
+        "85": "Full Time",
+        "86": "Internship",
+        "87": "Full Time",
+        "88": "Contract",
+        "89": "Contract",
+        "90": "Full Time",
+        "91": "Contract",
+        "92": "Full Time",
+        "93": "Internship",
+        "94": "Part Time",
+        "95": "Full Time",
+        "96": "Part Time",
+        "97": "Contract",
+        "98": "Internship",
+        "99": "Part Time"
+    },
+    "Tags": {
+        "0": [
+            "Fast-paced",
+            "Creative",
+            "Hybrid",
+            "Technical"
+        ],
+        "1": [
+            "Management",
+            "Entry Level",
+            "Fast-paced"
+        ],
+        "2": [
+            "Creative",
+            "Analytical",
+            "Remote",
+            "Hybrid"
+        ],
+        "3": [
+            "Management",
+            "Creative",
+            "Analytical"
+        ],
+        "4": [
+            "Customer Service",
+            "Management",
+            "Technical"
+        ],
+        "5": [
+            "Management",
+            "Customer Service"
+        ],
+        "6": [
+            "Entry Level",
+            "Hybrid",
+            "Technical"
+        ],
+        "7": [
+            "Creative",
+            "Management",
+            "Entry Level"
+        ],
+        "8": [
+            "Senior",
+            "Fast-paced",
+            "Management"
+        ],
+        "9": [
+            "Technical",
+            "Fast-paced",
+            "Senior"
+        ],
+        "10": [
+            "Fast-paced",
+            "Analytical"
+        ],
+        "11": [
+            "Hybrid",
+            "Remote",
+            "Entry Level",
+            "Creative"
+        ],
+        "12": [
+            "Technical",
+            "Senior",
+            "Management",
+            "Remote"
+        ],
+        "13": [
+            "Management",
+            "Creative"
+        ],
+        "14": [
+            "Entry Level",
+            "Management"
+        ],
+        "15": [
+            "Remote",
+            "Hybrid",
+            "Analytical",
+            "Management"
+        ],
+        "16": [
+            "Entry Level",
+            "Analytical"
+        ],
+        "17": [
+            "Analytical",
+            "Technical",
+            "Entry Level"
+        ],
+        "18": [
+            "Remote",
+            "Fast-paced",
+            "Analytical"
+        ],
+        "19": [
+            "Fast-paced",
+            "Technical",
+            "Management",
+            "Customer Service"
+        ],
+        "20": [
+            "Creative",
+            "Hybrid",
+            "Analytical"
+        ],
+        "21": [
+            "Hybrid",
+            "Creative"
+        ],
+        "22": [
+            "Creative",
+            "Hybrid",
+            "Management",
+            "Senior"
+        ],
+        "23": [
+            "Fast-paced",
+            "Analytical",
+            "Technical"
+        ],
+        "24": [
+            "Remote",
+            "Customer Service"
+        ],
+        "25": [
+            "Hybrid",
+            "Creative",
+            "Fast-paced",
+            "Customer Service"
+        ],
+        "26": [
+            "Remote",
+            "Hybrid"
+        ],
+        "27": [
+            "Entry Level",
+            "Creative",
+            "Fast-paced",
+            "Technical"
+        ],
+        "28": [
+            "Entry Level",
+            "Fast-paced",
+            "Hybrid"
+        ],
+        "29": [
+            "Fast-paced",
+            "Analytical"
+        ],
+        "30": [
+            "Hybrid",
+            "Analytical",
+            "Senior",
+            "Remote"
+        ],
+        "31": [
+            "Management",
+            "Entry Level"
+        ],
+        "32": [
+            "Creative",
+            "Analytical"
+        ],
+        "33": [
+            "Senior",
+            "Remote"
+        ],
+        "34": [
+            "Customer Service",
+            "Hybrid",
+            "Fast-paced",
+            "Entry Level"
+        ],
+        "35": [
+            "Entry Level",
+            "Customer Service",
+            "Remote",
+            "Senior"
+        ],
+        "36": [
+            "Senior",
+            "Fast-paced",
+            "Remote",
+            "Creative"
+        ],
+        "37": [
+            "Management",
+            "Remote",
+            "Senior"
+        ],
+        "38": [
+            "Senior",
+            "Remote",
+            "Technical",
+            "Analytical"
+        ],
+        "39": [
+            "Fast-paced",
+            "Customer Service",
+            "Management"
+        ],
+        "40": [
+            "Customer Service",
+            "Entry Level"
+        ],
+        "41": [
+            "Customer Service",
+            "Entry Level",
+            "Technical"
+        ],
+        "42": [
+            "Analytical",
+            "Fast-paced",
+            "Creative"
+        ],
+        "43": [
+            "Management",
+            "Customer Service",
+            "Technical"
+        ],
+        "44": [
+            "Fast-paced",
+            "Creative"
+        ],
+        "45": [
+            "Fast-paced",
+            "Technical",
+            "Creative",
+            "Analytical"
+        ],
+        "46": [
+            "Analytical",
+            "Hybrid",
+            "Management",
+            "Technical"
+        ],
+        "47": [
+            "Customer Service",
+            "Management"
+        ],
+        "48": [
+            "Fast-paced",
+            "Management",
+            "Creative"
+        ],
+        "49": [
+            "Management",
+            "Creative"
+        ],
+        "50": [
+            "Technical",
+            "Customer Service",
+            "Senior",
+            "Creative"
+        ],
+        "51": [
+            "Entry Level",
+            "Hybrid",
+            "Fast-paced"
+        ],
+        "52": [
+            "Customer Service",
+            "Hybrid",
+            "Fast-paced",
+            "Management"
+        ],
+        "53": [
+            "Technical",
+            "Creative",
+            "Remote"
+        ],
+        "54": [
+            "Entry Level",
+            "Management",
+            "Analytical"
+        ],
+        "55": [
+            "Fast-paced",
+            "Creative",
+            "Management",
+            "Remote"
+        ],
+        "56": [
+            "Management",
+            "Senior",
+            "Creative"
+        ],
+        "57": [
+            "Management",
+            "Senior",
+            "Customer Service",
+            "Remote"
+        ],
+        "58": [
+            "Senior",
+            "Entry Level",
+            "Management"
+        ],
+        "59": [
+            "Analytical",
+            "Technical",
+            "Customer Service"
+        ],
+        "60": [
+            "Fast-paced",
+            "Hybrid",
+            "Creative"
+        ],
+        "61": [
+            "Senior",
+            "Fast-paced"
+        ],
+        "62": [
+            "Entry Level",
+            "Analytical",
+            "Creative",
+            "Hybrid"
+        ],
+        "63": [
+            "Remote",
+            "Hybrid",
+            "Analytical",
+            "Management"
+        ],
+        "64": [
+            "Technical",
+            "Creative",
+            "Management"
+        ],
+        "65": [
+            "Customer Service",
+            "Technical",
+            "Fast-paced"
+        ],
+        "66": [
+            "Entry Level",
+            "Technical",
+            "Creative"
+        ],
+        "67": [
+            "Hybrid",
+            "Customer Service"
+        ],
+        "68": [
+            "Senior",
+            "Management",
+            "Technical"
+        ],
+        "69": [
+            "Senior",
+            "Management"
+        ],
+        "70": [
+            "Hybrid",
+            "Fast-paced",
+            "Analytical"
+        ],
+        "71": [
+            "Management",
+            "Customer Service",
+            "Entry Level",
+            "Fast-paced"
+        ],
+        "72": [
+            "Creative",
+            "Entry Level",
+            "Fast-paced"
+        ],
+        "73": [
+            "Remote",
+            "Customer Service",
+            "Analytical"
+        ],
+        "74": [
+            "Remote",
+            "Analytical"
+        ],
+        "75": [
+            "Creative",
+            "Senior",
+            "Hybrid"
+        ],
+        "76": [
+            "Customer Service",
+            "Entry Level",
+            "Remote"
+        ],
+        "77": [
+            "Creative",
+            "Fast-paced",
+            "Entry Level"
+        ],
+        "78": [
+            "Technical",
+            "Entry Level",
+            "Hybrid"
+        ],
+        "79": [
+            "Fast-paced",
+            "Creative",
+            "Remote",
+            "Hybrid"
+        ],
+        "80": [
+            "Entry Level",
+            "Creative"
+        ],
+        "81": [
+            "Customer Service",
+            "Analytical"
+        ],
+        "82": [
+            "Technical",
+            "Fast-paced"
+        ],
+        "83": [
+            "Technical",
+            "Remote",
+            "Analytical"
+        ],
+        "84": [
+            "Management",
+            "Fast-paced",
+            "Entry Level",
+            "Customer Service"
+        ],
+        "85": [
+            "Management",
+            "Remote",
+            "Entry Level",
+            "Customer Service"
+        ],
+        "86": [
+            "Creative",
+            "Analytical",
+            "Senior"
+        ],
+        "87": [
+            "Management",
+            "Creative",
+            "Analytical"
+        ],
+        "88": [
+            "Management",
+            "Creative"
+        ],
+        "89": [
+            "Senior",
+            "Customer Service"
+        ],
+        "90": [
+            "Hybrid",
+            "Senior",
+            "Remote"
+        ],
+        "91": [
+            "Management",
+            "Entry Level"
+        ],
+        "92": [
+            "Fast-paced",
+            "Remote",
+            "Hybrid",
+            "Technical"
+        ],
+        "93": [
+            "Customer Service",
+            "Technical",
+            "Senior",
+            "Hybrid"
+        ],
+        "94": [
+            "Customer Service",
+            "Hybrid"
+        ],
+        "95": [
+            "Fast-paced",
+            "Senior"
+        ],
+        "96": [
+            "Creative",
+            "Analytical",
+            "Hybrid",
+            "Fast-paced"
+        ],
+        "97": [
+            "Technical",
+            "Management",
+            "Customer Service"
+        ],
+        "98": [
+            "Technical",
+            "Analytical",
+            "Senior"
+        ],
+        "99": [
+            "Customer Service",
+            "Senior",
+            "Analytical"
+        ]
+    },
+    "Languages/Programs Used": {
+        "0": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "1": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "2": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "3": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "4": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "5": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "6": [
+            "JIRA",
+            "Trello",
+            "Microsoft Project",
+            "Slack"
+        ],
+        "7": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "8": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "9": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "10": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "11": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "12": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "13": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "14": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "15": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "16": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "17": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "18": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "19": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "20": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "21": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "22": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "23": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "24": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "25": [
+            "JIRA",
+            "Trello",
+            "Microsoft Project",
+            "Slack"
+        ],
+        "26": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "27": [
+            "JIRA",
+            "Trello",
+            "Microsoft Project",
+            "Slack"
+        ],
+        "28": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "29": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "30": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "31": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "32": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "33": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "34": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "35": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "36": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "37": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "38": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "39": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "40": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "41": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "42": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "43": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "44": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "45": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "46": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "47": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "48": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "49": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "50": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "51": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "52": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "53": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "54": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "55": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "56": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "57": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "58": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "59": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "60": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "61": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "62": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "63": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "64": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "65": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "66": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "67": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "68": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "69": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "70": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "71": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "72": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "73": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "74": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "75": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "76": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "77": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "78": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "79": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "80": [
+            "Python",
+            "C",
+            "Networking Tools",
+            "SIEM",
+            "Firewalls"
+        ],
+        "81": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "82": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "83": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "84": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "85": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "86": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "87": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "88": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Figma"
+        ],
+        "89": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "90": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "91": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "92": [
+            "JIRA",
+            "Trello",
+            "Microsoft Project",
+            "Slack"
+        ],
+        "93": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "94": [
+            "SAP",
+            "Workday",
+            "LinkedIn Recruiter"
+        ],
+        "95": [
+            "SQL",
+            "Python",
+            "R",
+            "Excel",
+            "Tableau",
+            "Power BI"
+        ],
+        "96": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "97": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "98": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "99": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ]
+    },
+    "Job Description": {
+        "0": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "1": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "2": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "3": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "4": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "5": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "6": "A Project Manager oversees the planning, execution, and completion of projects within an organization. They define project goals, set timelines, and allocate resources to ensure successful delivery. By coordinating cross-functional teams and managing stakeholders, they ensure that projects align with business objectives. They identify potential risks, develop mitigation strategies, and track progress using tools like JIRA and Trello. Strong leadership and communication skills are essential for ensuring team collaboration and achieving project success.",
+        "7": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "8": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "9": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "10": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "11": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "12": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "13": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "14": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "15": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "16": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "17": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "18": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "19": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "20": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "21": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "22": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "23": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "24": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "25": "A Project Manager oversees the planning, execution, and completion of projects within an organization. They define project goals, set timelines, and allocate resources to ensure successful delivery. By coordinating cross-functional teams and managing stakeholders, they ensure that projects align with business objectives. They identify potential risks, develop mitigation strategies, and track progress using tools like JIRA and Trello. Strong leadership and communication skills are essential for ensuring team collaboration and achieving project success.",
+        "26": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "27": "A Project Manager oversees the planning, execution, and completion of projects within an organization. They define project goals, set timelines, and allocate resources to ensure successful delivery. By coordinating cross-functional teams and managing stakeholders, they ensure that projects align with business objectives. They identify potential risks, develop mitigation strategies, and track progress using tools like JIRA and Trello. Strong leadership and communication skills are essential for ensuring team collaboration and achieving project success.",
+        "28": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "29": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "30": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "31": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "32": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "33": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "34": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "35": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "36": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "37": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "38": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "39": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "40": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "41": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "42": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "43": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "44": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "45": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "46": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "47": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "48": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "49": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "50": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "51": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "52": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "53": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "54": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "55": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "56": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "57": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "58": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "59": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "60": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "61": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "62": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "63": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "64": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "65": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "66": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "67": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "68": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "69": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "70": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "71": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "72": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "73": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "74": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "75": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "76": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "77": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "78": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "79": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "80": "A Cybersecurity Specialist is responsible for safeguarding an organization's digital infrastructure against cyber threats and vulnerabilities. They monitor network traffic, analyze security incidents, and implement protective measures such as firewalls and encryption. They also conduct security assessments, penetration testing, and vulnerability analysis to identify potential risks. Collaboration with IT teams is crucial to ensure security policies and compliance standards are met. Continuous learning is essential as cyber threats constantly evolve, requiring specialists to stay updated with the latest security trends and technologies.",
+        "81": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "82": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "83": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "84": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "85": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "86": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "87": "A Sales Associate interacts with customers to drive sales and provide excellent service. They assist shoppers in finding products, answer inquiries, and recommend suitable options. They handle transactions, maintain store displays, and track inventory to ensure smooth operations. Strong communication skills and a customer-oriented approach are crucial for building lasting client relationships. Their role directly impacts revenue growth and enhances the overall shopping experience.",
+        "88": "A Graphic Designer creates visual concepts to communicate ideas that inspire, inform, and captivate consumers. They develop digital and print materials such as logos, advertisements, and marketing collateral using tools like Adobe Photoshop and Illustrator. They work closely with marketing teams and clients to understand brand identity and ensure consistency across all design elements. Creativity and attention to detail are crucial in crafting compelling and aesthetically pleasing visuals. Their role also involves staying updated on design trends and utilizing innovative approaches to engage target audiences effectively.",
+        "89": "A Financial Analyst evaluates financial data to support business decisions and investment strategies. They analyze financial statements, market trends, and economic indicators to forecast company performance. They use tools like Excel, SQL, and Bloomberg Terminal to create reports and models. By assessing risks and opportunities, they provide actionable recommendations to stakeholders. Their insights help businesses optimize budgeting, maximize profitability, and drive financial growth.",
+        "90": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "91": "A Marketing Manager develops and implements strategies to promote products and services effectively. They analyze market trends, consumer behavior, and competitor activities to craft data-driven campaigns. They utilize digital tools like Google Analytics and SEO strategies to optimize brand visibility. Working closely with creative teams, they ensure consistent messaging across various channels. Their role is essential in increasing brand awareness, driving customer engagement, and maximizing revenue.",
+        "92": "A Project Manager oversees the planning, execution, and completion of projects within an organization. They define project goals, set timelines, and allocate resources to ensure successful delivery. By coordinating cross-functional teams and managing stakeholders, they ensure that projects align with business objectives. They identify potential risks, develop mitigation strategies, and track progress using tools like JIRA and Trello. Strong leadership and communication skills are essential for ensuring team collaboration and achieving project success.",
+        "93": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "94": "An HR Specialist manages various human resource functions, including recruitment, employee relations, and compliance. They play a key role in hiring talent by conducting interviews, reviewing resumes, and onboarding new employees. They ensure that workplace policies align with labor laws and organizational goals. HR Specialists also handle employee benefits, conflict resolution, and performance management. Their role is critical in maintaining a positive work environment and fostering employee satisfaction and productivity.",
+        "95": "A Data Analyst collects, processes, and interprets large datasets to provide actionable insights for decision-making. They use statistical tools such as SQL, Python, and Excel to analyze trends and patterns in business data. By creating reports and visualizations using Tableau or Power BI, they help organizations make informed strategic choices. They work closely with stakeholders to understand business needs and translate them into data-driven solutions. Their role is crucial in optimizing operations, improving efficiency, and identifying growth opportunities based on empirical evidence.",
+        "96": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "97": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks.",
+        "98": "A UX/UI Designer focuses on enhancing user experience by designing intuitive and visually appealing interfaces. They conduct user research to understand customer behavior and design wireframes and prototypes accordingly. Using tools like Figma and Adobe XD, they create layouts that prioritize accessibility and usability. Collaboration with developers and stakeholders ensures seamless implementation of design concepts. Their ultimate goal is to create digital experiences that are both functional and aesthetically engaging.",
+        "99": "A Software Engineer designs, develops, and maintains software applications to meet business and user needs. They write clean and efficient code in programming languages such as Python, Java, and JavaScript. They collaborate with cross-functional teams to define technical requirements and ensure smooth implementation. They also perform debugging, testing, and optimization to enhance application performance. Continuous learning is essential as software development evolves rapidly, requiring adaptation to new technologies and frameworks."
+    }
+}

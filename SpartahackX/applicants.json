@@ -1,0 +1,82 @@
+{
+    "0": {
+        "Name": "Charlie Davis",
+        "Job Category": "Marketing Manager",
+        "Location": "San Francisco, USA",
+        "Years of Experience": 7,
+        "Education": "Harvard University",
+        "Experience": "Worked in a startup handling marketing manager responsibilities.",
+        "Skills": [
+            "Google Analytics",
+            "SEO Tools",
+            "HubSpot",
+            "Canva"
+        ],
+        "LinkedIn": "linkedin.com/in/dianaroberts",
+        "Image": "https://media.istockphoto.com/id/1354898581/photo/shot-of-a-young-businessman-using-a-laptop-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=dDDNcvIoG-4VdO01ZlENqODBoNocT434vIFp0duuTZM="
+    },
+    "1": {
+        "Name": "Bob Smith",
+        "Job Category": "Software Engineer",
+        "Location": "New York, USA",
+        "Years of Experience": 10,
+        "Education": "Oxford University",
+        "Experience": "Worked in a multinational company handling software engineer responsibilities.",
+        "Skills": [
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript",
+            "SQL"
+        ],
+        "LinkedIn": "linkedin.com/in/alicejohnson",
+        "Image": "https://media.istockphoto.com/id/1355110818/photo/studio-shot-of-a-handsome-and-happy-young-man-posing-against-a-grey-background.jpg?s=612x612&w=0&k=20&c=T39jUOOjC8H-Op0cfd-uiNXk1a2XBn1sXkQbKIWwY7E="
+    },
+    "2": {
+        "Name": "Alice Johnson",
+        "Job Category": "Financial Analyst",
+        "Location": "New York, USA",
+        "Years of Experience": 7,
+        "Education": "Stanford University",
+        "Experience": "Worked in a multinational company handling financial analyst responsibilities.",
+        "Skills": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Bloomberg Terminal"
+        ],
+        "LinkedIn": "linkedin.com/in/dianaroberts",
+        "Image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.kellyheckphotography.com%2Fwp-content%2Fuploads%2F2022%2F02%2FAmber-1705-cropped.jpg&tbnid=Emx-5JKRhEJ7WM&vet=10CAIQxiAoAGoXChMImMPeh4WjiwMVAAAAAB0AAAAAEA0..i&imgrefurl=https%3A%2F%2Fwww.kellyheckphotography.com%2Fheadshots-vertical-horizontal-or-square%2F&docid=X3El_cDxXr3lwM&w=423&h=427&itg=1&q=stock%20photo%20office%20person%20headshot%20square&ved=0CAIQxiAoAGoXChMImMPeh4WjiwMVAAAAAB0AAAAAEA0"
+    },
+    "3": {
+        "Name": "Bob Smith",
+        "Job Category": "UX/UI Designer",
+        "Location": "Remote",
+        "Years of Experience": 7,
+        "Education": "Harvard University",
+        "Experience": "Worked in a mid-sized firm handling ux/ui designer responsibilities.",
+        "Skills": [
+            "Figma",
+            "Sketch",
+            "Adobe XD",
+            "HTML/CSS"
+        ],
+        "LinkedIn": "linkedin.com/in/ethanbrown",
+        "Image": "https://media.istockphoto.com/id/1354898581/photo/shot-of-a-young-businessman-using-a-laptop-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=dDDNcvIoG-4VdO01ZlENqODBoNocT434vIFp0duuTZM="
+    },
+    "4": {
+        "Name": "Charlie Davis",
+        "Job Category": "Sales Associate",
+        "Location": "Berlin, Germany",
+        "Years of Experience": 5,
+        "Education": "Harvard University",
+        "Experience": "Worked in a mid-sized firm handling sales associate responsibilities.",
+        "Skills": [
+            "Salesforce",
+            "CRM Software",
+            "Microsoft Office"
+        ],
+        "LinkedIn": "linkedin.com/in/dianaroberts",
+        "Image": "https://media.istockphoto.com/id/1354898581/photo/shot-of-a-young-businessman-using-a-laptop-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=dDDNcvIoG-4VdO01ZlENqODBoNocT434vIFp0duuTZM="
+    }
+}
