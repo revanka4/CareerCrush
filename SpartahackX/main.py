@@ -269,14 +269,14 @@ def main():
             
             col1, col2 = st.columns(2)
             with col1:
-                if st.button("❤️ Like"):
+                if st.button("❤️ Like", key=f"like_{profile['name']}"):
                     st.session_state.liked.append(profile)
                     st.session_state.index += 1
                     st.session_state.recommended = get_recommended_profiles(profiles, similarity_matrix, st.session_state.liked, st.session_state.disliked)
                     st.rerun()
             
             with col2:
-                if st.button("❌ Dislike"):
+                if st.button("❌ Dislike", key=f"dislike_{profile['name']}"):
                     st.session_state.disliked.append(profile)
                     st.session_state.index += 1
                     st.rerun()
@@ -287,7 +287,7 @@ def main():
         st.write("### Liked Profiles:")
         if st.session_state.liked:
             for p in st.session_state.liked:
-                if st.button(p['job_category']):
+                if st.button(p['job_category'], key=f"liked_{p['name']}"):
                     st.markdown(f"""
                     <div class="card">
                         <div class="card-header">
@@ -309,7 +309,7 @@ def main():
         st.write("### Disliked Profiles:")
         if st.session_state.disliked:
             for p in st.session_state.disliked:
-                if st.button(p['name']):
+                if st.button(p['name'], key=f"disliked_{p['name']}"):
                     st.markdown(f"""
                     <div class="card">
                         <div class="card-header">
