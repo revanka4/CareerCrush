@@ -167,6 +167,7 @@ def get_profiles():
             "experience": applicant["Experience"],
             "skills": applicant["Skills"],
             "linkedin": applicant["LinkedIn"],
+            "image": applicant["Image"]
         }
         profiles.append(profile)
     
@@ -247,6 +248,9 @@ def main():
             profile = None
         
         if profile:
+
+            st.image({profile['image']}, caption=f"{profile['name']}", width=500)
+
             st.markdown(f"""
             <div class="card">
                 <div class="card-header">
