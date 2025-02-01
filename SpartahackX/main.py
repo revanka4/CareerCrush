@@ -174,6 +174,7 @@ def get_profiles():
     return profiles
 
 def compute_similarity(profiles):
+    # Convert skills into a single string for each profile
     skill_texts = [" ".join(profile["skills"]) for profile in profiles]
     vectorizer = TfidfVectorizer()
     skill_vectors = vectorizer.fit_transform(skill_texts)
@@ -181,17 +182,31 @@ def compute_similarity(profiles):
     return similarity_matrix
 
 def get_recommended_profiles(profiles, similarity_matrix, liked_profiles, disliked_profiles):
+    # Get indices of liked and disliked profiles
     liked_indices = [profiles.index(p) for p in liked_profiles if p in profiles]
     disliked_indices = {profiles.index(p) for p in disliked_profiles if p in profiles}
     
-    recommended_indices = set()
-    for idx in liked_indices:
-        similar_profiles = np.argsort(similarity_matrix[idx])[::-1]
-        for sp_idx in similar_profiles:
-            if sp_idx not in liked_indices and sp_idx not in disliked_indices:
-                recommended_indices.add(sp_idx)
+    # If no profiles are liked, return all profiles except disliked ones
+    if not liked_indices:
+        return [p for idx, p in enumerate(profiles) if idx not in disliked_indices]
     
-    return [profiles[i] for i in recommended_indices if i < len(profiles)]
+    # Compute average similarity to liked profiles
+    avg_similarity = np.mean(similarity_matrix[liked_indices], axis=0)
+    
+    # Set similarity of disliked profiles to -1 to exclude them
+    for idx in disliked_indices:
+        avg_similarity[idx] = -1
+    
+    # Sort profiles by similarity (descending order)
+    recommended_indices = np.argsort(avg_similarity)[::-1]
+    
+    # Filter out disliked profiles and already liked profiles
+    recommended_profiles = []
+    for idx in recommended_indices:
+        if idx not in liked_indices and idx not in disliked_indices and avg_similarity[idx] > 0:
+            recommended_profiles.append(profiles[idx])
+    
+    return recommended_profiles
 
 def main():
     st.title("Career Crush")
@@ -212,8 +227,11 @@ def main():
     profiles = get_profiles()
     similarity_matrix = compute_similarity(profiles)
     
-    if not st.session_state.recommended and st.session_state.liked:
-        st.session_state.recommended = get_recommended_profiles(profiles, similarity_matrix, st.session_state.liked, st.session_state.disliked)
+    # Update recommendations based on liked and disliked profiles
+    if not st.session_state.recommended:
+        st.session_state.recommended = get_recommended_profiles(
+            profiles, similarity_matrix, st.session_state.liked, st.session_state.disliked
+        )
 
     st.markdown("""
     <style>
@@ -240,16 +258,13 @@ def main():
     """, unsafe_allow_html=True)
     
     if page == "Swipe Profiles":
-        if st.session_state.index < len(profiles):
-            profile = profiles[st.session_state.index]
-        elif st.session_state.recommended:
-            profile = st.session_state.recommended.pop(0)
+        if st.session_state.recommended:
+            profile = st.session_state.recommended[st.session_state.index]
         else:
             profile = None
         
         if profile:
-
-            st.image({profile['image']}, caption=f"{profile['name']}", width=500)
+            st.image(profile['image'], caption=f"{profile['name']}", width=500)
 
             st.markdown(f"""
             <div class="card">
@@ -277,13 +292,20 @@ def main():
                 if st.button("❤️ Like", key=f"like_{profile['name']}"):
                     st.session_state.liked.append(profile)
                     st.session_state.index += 1
-                    st.session_state.recommended = get_recommended_profiles(profiles, similarity_matrix, st.session_state.liked, st.session_state.disliked)
+                    # Update recommendations based on new liked profile
+                    st.session_state.recommended = get_recommended_profiles(
+                        profiles, similarity_matrix, st.session_state.liked, st.session_state.disliked
+                    )
                     st.rerun()
             
             with col2:
                 if st.button("❌ Dislike", key=f"dislike_{profile['name']}"):
                     st.session_state.disliked.append(profile)
                     st.session_state.index += 1
+                    # Update recommendations to exclude disliked profile
+                    st.session_state.recommended = get_recommended_profiles(
+                        profiles, similarity_matrix, st.session_state.liked, st.session_state.disliked
+                    )
                     st.rerun()
         else:
             st.write("No more profiles to show!")
