@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import json
-a = [1,2,3]
 
 # Load profiles from the JSON file
 def get_profiles():
@@ -29,11 +28,11 @@ def get_profiles():
     return profiles
 
 def main():
-    st.title("Career Crush")
-    st.text("Time to crush your career")
+    st.title("Career Crush 🌟")
+    st.text("Time to crush your career 🚀")
 
     # Sidebar Navigation
-    st.sidebar.title("Navigation")
+    st.sidebar.title("Navigation 🧭")
     page = st.sidebar.radio("Go to", ["Swipe Profiles", "View Matches"])
     
     if "index" not in st.session_state:
@@ -43,43 +42,54 @@ def main():
     
     profiles = get_profiles()
 
-    # Custom CSS for card style
+    # Custom CSS for card style and button size adjustments
     st.markdown("""
     <style>
         .card {
             border: 1px solid #ccc;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-size: 18px;  /* Larger text for better readability */
         }
         .card img {
-            border-radius: 10px;
+            border-radius: 12px;
             max-width: 100%;
         }
         .card-header {
-            font-size: 1.2em;
+            font-size: 1.5em;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
         .card-body {
-            font-size: 1em;
+            font-size: 1.2em;
             color: #333;
         }
         .card-actions {
-            margin-top: 10px;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
         }
         .card-actions button {
             background-color: #4CAF50;
             color: white;
             border: none;
-            padding: 10px;
-            margin: 5px;
-            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
             cursor: pointer;
+            font-size: 1.2em; /* Larger button text */
+            width: 45%; /* Ensure even spacing for the buttons */
         }
         .card-actions button:hover {
             background-color: #45a049;
+        }
+        .card-actions button:focus {
+            outline: none;
+        }
+        .sidebar .sidebar-content {
+            font-size: 1.2em;
         }
     </style>
     """, unsafe_allow_html=True)
@@ -88,56 +98,55 @@ def main():
         if st.session_state.index < len(profiles):
             profile = profiles[st.session_state.index]
             
-            # Create profile card
+            # Create profile card with emojis
             st.markdown(f"""
             <div class="card">
                 <div class="card-header">
-                    {profile['job_title']} - ({profile['employment_type']})
+                    {profile['job_title']} - ({profile['employment_type']}) 💼
                 </div>
                 <div class="card-body">
-                    {profile['company_name']}
+                    <strong>🏢 Company:</strong> {profile['company_name']}
                     <br><br>
-                    Industry: {profile['industry']} 
+                    <strong>🌍 Industry:</strong> {profile['industry']}
                     <br><br>
-                    Tags: {', '.join(profile['tags'])}
+                    <strong>🏷️ Tags:</strong> {', '.join(profile['tags'])}
                     <br><br>
-                    Tools: {', '.join(profile['tools'])}
+                    <strong>🛠️ Tools:</strong> {', '.join(profile['tools'])}
                     <br><br>
-                    Description: {''.join(profile['description'])}
+                    <strong>📝 Description:</strong> {''.join(profile['description'])}
                 </div>
+ 
             </div>
             """, unsafe_allow_html=True)
 
             col1, col2 = st.columns(2)
             with col1:
-                if st.button("❤️ Like"):
+                if st.button("❤️ Like", use_container_width=True):
                     st.session_state.liked.append(profile)
                     st.session_state.index += 1
                     st.rerun()
             
             with col2:
-                if st.button("❌ Dislike"):
+                if st.button("❌ Dislike", use_container_width=True):
                     st.session_state.disliked.append(profile)
                     st.session_state.index += 1
                     st.rerun()
 
         else:
-            st.write("No more profiles to show!")
+            st.write("No more profiles to show! 😢")
     
     elif page == "View Matches":
-        st.write("### Liked Profiles:")
+        st.write("### Liked Profiles ❤️:")
         if st.session_state.liked:
             for p in st.session_state.liked:
-                #st.image(p["image"], width=100)
-                st.write(f"- {p['name']}, {p['job_title']}")
+                st.write(f"- {p['name']}, {p['job_title']} 💼")
         else:
             st.write("No liked profiles yet.")
         
-        st.write("### Disliked Profiles:")
+        st.write("### Disliked Profiles ❌:")
         if st.session_state.disliked:
             for p in st.session_state.disliked:
-                #st.image(p["image"], width=100)
-                st.write(f"- {p['name']}, {p['job_title']}")
+                st.write(f"- {p['name']}, {p['job_title']} 💼")
         else:
             st.write("No disliked profiles yet.")
 

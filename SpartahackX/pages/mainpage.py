@@ -56,52 +56,54 @@ def get_recommended_profiles(profiles, similarity_matrix, liked_profiles, dislik
     return recommended_profiles
 
 def main():
-    st.title("Career Crush")
-    st.text("Time to crush your career!")
+    st.title("🌟 Career Crush 🌟")
+    st.text("Time to crush your career! Let's make some connections. 🚀")
 
     # Custom CSS for button and card styling
     st.markdown("""
     <style>
         .card {
-            border: 1px solid #ccc;  /* Added border back */
-            border-radius: 10px;
+            border: 2px solid #3498db;  /* Blue border for the card */
+            border-radius: 15px;
             padding: 20px;
-            margin-bottom: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: #f0f8ff;  /* Light background color */
         }
         .card img {
-            border-radius: 10px;
+            border-radius: 15px;
             max-width: 100%;
         }
         .card-header {
-            font-size: 1.2em;
+            font-size: 1.5em;
             font-weight: bold;
             margin-bottom: 10px;
+            color: #2c3e50;
         }
         .card-body {
-            font-size: 1em;
-            color: #333;
+            font-size: 1.2em;
+            color: #34495e;
         }
         .card-actions {
-            margin-top: 10px;
+            margin-top: 15px;
         }
         .card-actions button {
             width: 100%;  /* Make button take full width of the column */
             padding: 20px;
-            font-size: 20px;
-            border-radius: 10px;
+            font-size: 22px;
+            border-radius: 12px;
             color: white;
             border: none;
             cursor: pointer;
         }
         .like-button {
-            background-color: #4CAF50;
+            background-color: #4CAF50; /* Green for Like */
         }
         .like-button:hover {
             background-color: #45a049;
         }
         .dislike-button {
-            background-color: #f44336;
+            background-color: #f44336; /* Red for Dislike */
         }
         .dislike-button:hover {
             background-color: #e53935;
@@ -110,7 +112,7 @@ def main():
     """, unsafe_allow_html=True)
 
     # Sidebar Navigation
-    st.sidebar.title("Career Home!")
+    st.sidebar.title("Career Home 🏠")
     page = st.sidebar.radio("Go to", ["Swipe Profiles", "View Matches"])
 
     # Initialize session state variables
@@ -144,24 +146,24 @@ def main():
 
             st.image(profile['image'])
 
-            # Display profile card
+            # Display profile card with emojis
             st.markdown(f"""
             <div class="card">
                 <div class="card-header">
                     {profile['name']} - {profile['job_category']}
                 </div>
                 <div class="card-body">
-                    Location: {profile['location']}
+                    <strong>📍 Location:</strong> {profile['location']}
                     <br><br>
-                    Years of Experience: {profile['years_of_experience']}
+                    <strong>💼 Years of Experience:</strong> {profile['years_of_experience']}
                     <br><br>
-                    Education: {profile['education']}
+                    <strong>🎓 Education:</strong> {profile['education']}
                     <br><br>
-                    Experience: {profile['experience']}
+                    <strong>📝 Experience:</strong> {profile['experience']}
                     <br><br>
-                    Skills: {', '.join(profile['skills'])}
+                    <strong>🔧 Skills:</strong> {', '.join(profile['skills'])}
                     <br><br>
-                    LinkedIn: <a href="{profile['linkedin']}" target="_blank">{profile['linkedin']}</a>
+                    <strong>🔗 LinkedIn:</strong> <a href="{profile['linkedin']}" target="_blank">{profile['linkedin']}</a>
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -179,7 +181,7 @@ def main():
                     st.rerun()
 
             with col2:
-                if st.button("❌ Dislike", key="dislike_button", help="Dislike this profile", use_container_width=True):
+                if st.button("❌ Skip", key="dislike_button", help="Dislike this profile", use_container_width=True):
                     st.session_state.disliked.append(profile)
                     st.session_state.index += 1
                     st.session_state.recommended = get_recommended_profiles(
@@ -188,12 +190,12 @@ def main():
                     st.rerun()
 
             # Feedback
-            feedback = st.text_area("Why did you like/dislike this profile?")
+            feedback = st.text_area("Why did you like/dislike this profile? 💬", height=100)
             if st.button("Submit Feedback"):
                 st.session_state.feedback[profile['name']] = feedback
-                st.success("Thank you for your feedback!")
+                st.success("Thank you for your feedback! 😊")
         else:
-            st.write("No more profiles to show!")
+            st.write("No more profiles to show! 😢")
 
 if __name__ == "__main__":
     main()
