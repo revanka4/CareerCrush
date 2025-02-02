@@ -3,7 +3,7 @@ from datetime import datetime
 from openai import OpenAI
 
 # Initialize OpenAI client
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='APIKEY')
 
 CONTEXT_DATA = """
 Company Information:
