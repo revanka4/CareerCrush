@@ -147,7 +147,7 @@ def main():
         if filtered_profiles:
             profile = filtered_profiles[st.session_state.index]
 
-            st.image({profile['image']})
+            st.image(profile['image'])
 
             # Display profile card
             st.markdown(f"""
@@ -209,15 +209,35 @@ def main():
         st.write("### Liked Profiles:")
         if filtered_liked_profiles:
             for p in filtered_liked_profiles:
-                if st.button(p["name"]):
-                    st.write(f"**{p['name']}**")
-                    st.write(f"Job Category: {p['job_category']}")
-                    st.write(f"Location: {p['location']}")
-                    st.write(f"Years of Experience: {p['years_of_experience']}")
-                    st.write(f"Education: {p['education']}")
-                    st.write(f"Experience: {p['experience']}")
-                    st.write(f"Skills: {', '.join(p['skills'])}")
-                    st.write(f"LinkedIn: {p['linkedin']}")
+                # Double-click to remove the profile
+                if st.button(p["name"], key=f"liked_{p['name']}"):
+                    if p['name'] in st.session_state.card_visibility:
+                        st.session_state.card_visibility[p['name']] = not st.session_state.card_visibility[p['name']]
+                    else:
+                        st.session_state.card_visibility[p['name']] = True
+                
+                # Display the card if it's visible
+                if st.session_state.card_visibility.get(p['name'], False):
+                    st.markdown(f"""
+                    <div class="card">
+                        <div class="card-header">
+                            {p['name']} - {p['job_category']}
+                        </div>
+                        <div class="card-body">
+                            Location: {p['location']}
+                            <br><br>
+                            Years of Experience: {p['years_of_experience']}
+                            <br><br>
+                            Education: {p['education']}
+                            <br><br>
+                            Experience: {p['experience']}
+                            <br><br>
+                            Skills: {', '.join(p['skills'])}
+                            <br><br>
+                            LinkedIn: <a href="{p['linkedin']}" target="_blank">{p['linkedin']}</a>
+                        </div>
+                    </div>
+                    """, unsafe_allow_html=True)
         else:
             st.write("No liked profiles match your search.")
 
