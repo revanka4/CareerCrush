@@ -10,7 +10,7 @@ def add_message(role, content):
     st.session_state.messages.append({"role": role, "content": content, "timestamp": datetime.now()})
 
 # Streamlit app layout
-st.title("Simple Messaging App")
+st.title("Chat")
 
 # Display existing messages
 for message in st.session_state.messages:

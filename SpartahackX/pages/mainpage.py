@@ -59,6 +59,56 @@ def main():
     st.title("Career Crush")
     st.text("Time to crush your career!")
 
+    # Custom CSS for button and card styling
+    st.markdown("""
+    <style>
+        .card {
+            border: 1px solid #ccc;  /* Added border back */
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        .card-header {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card-body {
+            font-size: 1em;
+            color: #333;
+        }
+        .card-actions {
+            margin-top: 10px;
+        }
+        .card-actions button {
+            width: 100%;  /* Make button take full width of the column */
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .like-button {
+            background-color: #4CAF50;
+        }
+        .like-button:hover {
+            background-color: #45a049;
+        }
+        .dislike-button {
+            background-color: #f44336;
+        }
+        .dislike-button:hover {
+            background-color: #e53935;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
     # Sidebar Navigation
     st.sidebar.title("Career Home!")
     page = st.sidebar.radio("Go to", ["Swipe Profiles", "View Matches"])
@@ -116,23 +166,20 @@ def main():
             </div>
             """, unsafe_allow_html=True)
 
-            # Action buttons
+            # Action buttons with custom styles for larger size and spacing
             col1, col2 = st.columns(2)
             with col1:
-                if st.button("❤️ Like"):
+                if st.button("❤️ Like", key="like_button", help="Like this profile", use_container_width=True):
                     st.session_state.liked.append(profile)
                     st.session_state.index += 1
                     st.session_state.like_count += 1  # Increment like count
-                    print(st.session_state.like_count)
-
-                    
-
                     st.session_state.recommended = get_recommended_profiles(
                         profiles, similarity_matrix, st.session_state.liked, st.session_state.disliked
                     )
                     st.rerun()
+
             with col2:
-                if st.button("❌ Dislike"):
+                if st.button("❌ Dislike", key="dislike_button", help="Dislike this profile", use_container_width=True):
                     st.session_state.disliked.append(profile)
                     st.session_state.index += 1
                     st.session_state.recommended = get_recommended_profiles(
@@ -147,7 +194,6 @@ def main():
                 st.success("Thank you for your feedback!")
         else:
             st.write("No more profiles to show!")
-
 
 if __name__ == "__main__":
     main()
