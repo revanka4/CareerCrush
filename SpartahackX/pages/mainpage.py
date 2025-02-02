@@ -122,7 +122,7 @@ def main():
         st.session_state.disliked = []
         st.session_state.recommended = []
         st.session_state.card_visibility = {}
-        st.session_state.saved_profiles = []
+        st.session_state.saved_profiles = []  # Store liked profiles here
         st.session_state.feedback = {}
         st.session_state.like_count = 0  # Track like button clicks
 
@@ -173,6 +173,7 @@ def main():
             with col1:
                 if st.button("❤️ Like", key="like_button", help="Like this profile", use_container_width=True):
                     st.session_state.liked.append(profile)
+                    st.session_state.saved_profiles.append(profile)  # Save liked profile permanently
                     st.session_state.index += 1
                     st.session_state.like_count += 1  # Increment like count
                     st.session_state.recommended = get_recommended_profiles(
@@ -196,6 +197,37 @@ def main():
                 st.success("Thank you for your feedback! 😊")
         else:
             st.write("No more profiles to show! 😢")
+
+    # View Matches Page - Show Saved Profiles as Cards
+    if page == "View Matches":
+        st.subheader("Your Saved Likes 🏆")
+
+        if st.session_state.saved_profiles:
+            for profile in st.session_state.saved_profiles:
+                st.image(profile['image'])  # Show profile picture
+
+                st.markdown(f"""
+                <div class="card">
+                    <div class="card-header">
+                        {profile['name']} - {profile['job_category']}
+                    </div>
+                    <div class="card-body">
+                        <strong>📍 Location:</strong> {profile['location']}
+                        <br><br>
+                        <strong>💼 Years of Experience:</strong> {profile['years_of_experience']}
+                        <br><br>
+                        <strong>🎓 Education:</strong> {profile['education']}
+                        <br><br>
+                        <strong>📝 Experience:</strong> {profile['experience']}
+                        <br><br>
+                        <strong>🔧 Skills:</strong> {', '.join(profile['skills'])}
+                        <br><br>
+                        <strong>🔗 LinkedIn:</strong> <a href="{profile['linkedin']}" target="_blank">{profile['linkedin']}</a>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+        else:
+            st.write("No saved matches yet! 💔 Start liking profiles to save them.")
 
 if __name__ == "__main__":
     main()
