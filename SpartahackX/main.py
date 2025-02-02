@@ -1,5 +1,11 @@
 import streamlit as st
 
+# Add logo at the very top of the sidebar
+st.sidebar.markdown("<br>", unsafe_allow_html=True)  # Adds spacing if needed
+st.sidebar.image("file-RRqigeTBQMsd77tFowkt5X.png", use_container_width=True)
+
+
+
 # Hardcoded login credentials (for demonstration purposes)
 LOGIN_CREDENTIALS = {
     "employer": {"username": "employer", "password": "employer123"},
